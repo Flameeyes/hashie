@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/../spec_helper'
+require 'spec_helper' rescue require File.dirname(__FILE__) + '/../spec_helper'
 
 describe Hash do
   it "should be convertible to a Hashie::Mash" do
